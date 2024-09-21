@@ -20,14 +20,14 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://graph.org/file/6b5d067ca32eeb6dfa406.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/70c306053d29595749a52.mp4")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
-SUBSCRIPTIO = (environ.get('SUBSCRIPTION', 'https://graph.org/file/453630052fef8854ec138.jpg')).split()
-CODE = (environ.get('CODE', 'https://graph.org/file/ce995209653777540f02e.jpg'))
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
-REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1a2e64aee3d4d10edd930.jpg")).split() 
+PICS = (environ.get('PICS', 'https://telegra.ph/file/962816b48436de648e981.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/962816b48436de648e981.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/962816b48436de648e981.jpg")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/962816b48436de648e981.jpg'))
+SUBSCRIPTIO = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/962816b48436de648e981.jpg')).split()
+CODE = (environ.get('CODE', 'https://telegra.ph/file/962816b48436de648e981.jpg'))
+PAYPICS = (environ.get('PAYPICS', 'https://telegra.ph/file/962816b48436de648e981.jpg')).split()
+REFER_PICS = (environ.get("REFER_PICS", "https://telegra.ph/file/962816b48436de648e981.jpg")).split() 
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'krishnalink.in')) # not support
@@ -73,7 +73,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+lkhfr_mHxgo1N2M1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/shrimadramayan')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/shrimadramayan')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Maintained By Pro⚡️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002240270680')) #Log channel id ( make sure bot is admin )
@@ -83,14 +83,14 @@ IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002011750588')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), False)
@@ -133,7 +133,7 @@ else:
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
 
 # online Stream and Download support only premium user, True or Flase
 JS_WEB_PREMIUM = is_enabled((environ.get('JS_WEB_PREMIUM', "True")), True)
