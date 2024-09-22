@@ -33,7 +33,7 @@ REFER_PICS = (environ.get("REFER_PICS", "https://telegra.ph/file/962816b48436de6
 STREAM_SITE = (environ.get('STREAM_SITE', 'krishnalink.in')) # not support
 STREAM_API = (environ.get('STREAM_API', '375674a70df3199cb5e0e30b1d89a9741d561530'))
 STREAMHTO = (environ.get('STREAMHTO', ''))
-BOT_USERNAME = environ.get("BOT_USERNAME", "ShrimadRamayanBot")
+BOT_USERNAME = environ.get("BOT_USERNAME", "SrimadRamayanBot")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1388032243').split()]
