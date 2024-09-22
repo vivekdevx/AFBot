@@ -97,8 +97,6 @@ async def start(client, message):
     await message.react(emoji=random.choice(EMOJIS), big=True)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
                     InlineKeyboardButton('🍁 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ 🍁', url="https://t.me/{temp.U_NAME}?start=help")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -322,11 +320,10 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
+                            
                             [
-                                InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'stream#{file_id}'),
-                            ],
-                            [
-                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/shrimadramayan') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
+                                InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
                             ]
                         ]
                     )
@@ -342,10 +339,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'stream#{file_id}'),
-                            ],
-                            [
-                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/shrimadramayan') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
+                                InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
                             ]
                         ]
                     )
@@ -520,10 +515,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'stream#{file_id}'),
-             ],
-             [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/shrimadramayan') #Don't change anything without contacting me @LazyDeveloperr
+                 InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
+                 InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
              ]
             ]
         )
@@ -591,10 +584,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'stream#{file_id}'),
-             ],
-             [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/shrimadramayan') #Don't change anything without contacting me @LazyDeveloperr
+               InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
+               InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
              ]
             ]
         )
@@ -651,10 +642,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'stream#{file_id}'),
-             ],
-             [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/shrimadramayan') #Don't change anything without contacting me @LazyDeveloperr
+                 InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
+                 InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
              ]
             ]
         )
