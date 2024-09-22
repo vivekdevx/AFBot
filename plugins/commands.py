@@ -322,8 +322,8 @@ async def start(client, message):
                         [
                             
                             [
-                                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
-                                InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
+                                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url=f'https://t.me/shrimadramayan'),
+                                InlineKeyboardButton('ɢʀᴏᴜᴘ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
                             ]
                         ]
                     )
@@ -339,8 +339,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
-                                InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
+                                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url=f'https://t.me/shrimadramayan'),
+                                InlineKeyboardButton('ɢʀᴏᴜᴘ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
                             ]
                         ]
                     )
@@ -515,7 +515,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
             [
              [
-                 InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
+                 InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan'),
                  InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
              ]
             ]
@@ -584,7 +584,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
             [
              [
-               InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
+               InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan'),
                InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
              ]
             ]
@@ -642,7 +642,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-                 InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan')
+                 InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', url=f'https://t.me/shrimadramayan'),
                  InlineKeyboardButton('ɢʀᴏᴜᴘ ', url=f'https://t.me/+lkhfr_mHxgo1N2M1')
              ]
             ]
