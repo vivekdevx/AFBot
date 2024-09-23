@@ -39,7 +39,7 @@ Bʏ @ShrimadRamayan"""
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
 
-Bʏ @JISSHU_BOTS"""
+Bʏ @ShrimadRamayan"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,
@@ -234,12 +234,7 @@ Nᴀᴍᴇ : {}
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
   
-    SOURCE_TXT = """<b>
-NOTE:
-- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/shrimadramayan">𝕊hrimad 𝕽amayan™</a></blockquote>
 
-Developer : Pro
-</b>""" 
 
     
     CAPTION = """"""
